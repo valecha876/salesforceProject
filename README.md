@@ -1,9 +1,9 @@
-🌍 Salesforce Carbon Footprint Tracker
-📌 Project Overview
+🌍 ## Salesforce Carbon Footprint Tracker
+📌 ## Project Overview
 
 The Carbon Footprint Tracker is a Salesforce-based solution designed to help organizations monitor, measure, and reduce carbon emissions. By centralizing sustainability data, automating reporting, and providing actionable dashboards, the solution empowers businesses to achieve ESG compliance, improve efficiency, and drive sustainable growth.
 
-❓ Problem Statement
+❓ ## Problem Statement
 
 Organizations face significant challenges in managing their carbon emissions due to:
 
@@ -15,7 +15,7 @@ Organizations face significant challenges in managing their carbon emissions due
 
 This makes it difficult for businesses to stay compliant with sustainability standards, manage risks, and showcase their environmental responsibility.
 
-💡 Solution
+💡 ## Solution
 
 The Carbon Footprint Tracker solves these challenges by leveraging Salesforce capabilities:
 
@@ -29,7 +29,7 @@ The Carbon Footprint Tracker solves these challenges by leveraging Salesforce ca
 
 🛒 AppExchange Potential – Shareable sustainability package for wider adoption
 
-📦 Phase 1 Deliverables – Problem Understanding & Industry Analysis
+📦 ## Phase 1 Deliverables – Problem Understanding & Industry Analysis
 
 ✅ Requirement Gathering
 
@@ -53,6 +53,6 @@ The Carbon Footprint Tracker solves these challenges by leveraging Salesforce ca
 
 🌐 Contribution towards UN SDGs for Climate Action
 
-📖 Conclusion
+📖 ## Conclusion
 
 The Carbon Footprint Tracker positions Salesforce as a technology enabler of sustainability. It empowers organizations to seamlessly monitor, measure, and minimize emissions, ensuring both business growth and positive environmental impact.
