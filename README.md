@@ -38,4 +38,4 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ## 🚀 Next Steps  
 Proceed to **Phase 2: Org Setup & Configuration**  
->>>>>>> b01f88c7a4c58a5dc37488c367128b571143c3e6
+
