@@ -36,22 +36,21 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
-## ✅ Completed  
-**Phase 2: Org Setup & Configuration**  
-- Salesforce Editions  
-- Company Profile Setup  
-- Business Hours & Holidays  
-- Fiscal Year Settings  
-- User Setup & Licenses  
-- Profiles  
-- Roles  
-- Permission Sets  
-- OWD  
-- Sharing Rules  
-- Login Access Policies  
-- Dev Org Setup  
-- Sandbox Usage  
-- Deployment Basics  
+## 📦 Phase 2: Org Setup & Configuration  
+- ✅ Salesforce Editions  
+- ✅ Company Profile Setup  
+- ✅ Business Hours & Holidays  
+- ✅ Fiscal Year Settings  
+- ✅ User Setup & Licenses  
+- ✅ Profiles  
+- ✅ Roles  
+- ✅ Permission Sets  
+- ✅ OWD  
+- ✅ Sharing Rules  
+- ✅ Login Access Policies  
+- ✅ Dev Org Setup  
+- ✅ Sandbox Usage  
+- ✅ Deployment Basics  
 
 ---
 ## 🚀 Next Steps  
