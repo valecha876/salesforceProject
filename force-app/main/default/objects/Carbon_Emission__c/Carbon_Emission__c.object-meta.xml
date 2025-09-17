@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Carbon Emission</label>
+    <pluralLabel>Carbon Emissions</pluralLabel>
+    <nameField>
+        <label>Emission Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ControlledByParent</sharingModel>
+
+    <fields>
+        <fullName>Amount__c</fullName>
+        <label>Amount (CO₂e)</label>
+        <type>Number</type>
+        <precision>18</precision>
+        <scale>2</scale>
+        <required>true</required>
+    </fields>
+
+    <fields>
+        <fullName>Date__c</fullName>
+        <label>Date</label>
+        <type>Date</type>
+        <required>true</required>
+    </fields>
+
+    <fields>
+        <fullName>Source__c</fullName>
+        <label>Emission Source</label>
+        <type>MasterDetail</type>
+        <referenceTo>Emission_Source__c</referenceTo>
+        <relationshipName>Carbon_Emissions</relationshipName>
+    </fields>
+</CustomObject>
