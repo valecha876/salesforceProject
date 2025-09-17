@@ -49,7 +49,6 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Sharing Rules  
 - ✅ Login Access Policies  
 - ✅ Dev Org Setup  
-- ✅ Sandbox Usage  
 - ✅ Deployment Basics  
 
 ---
