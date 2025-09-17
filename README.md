@@ -36,7 +36,7 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
-## 📦 Phase 2: Org Setup & Configuration  
+## 🌱 Phase 2: Org Setup & Configuration  
 - ✅ Salesforce Editions  
 - ✅ Company Profile Setup  
 - ✅ Business Hours & Holidays  
@@ -52,7 +52,16 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Deployment Basics  
 
 ---
-## 🚀 Next Steps  
-Proceed to **Phase 3: Data Modeling &amp; Relationships**
+
+## 🏗️ Phase 3: Data Modeling & Relationships  
+- ✅ Standard & Custom Objects  
+- ✅ Fields  
+- ✅ Record Types  
+- ✅ Page Layouts  
+- ✅ Schema Builder  
+- ✅ Lookup vs Master-Detail vs Hierarchical Relationships  
+
+---
 
 
+## ⚙️ Phase 4: Process Automation (Admin) 🚧 *In Progress*  
