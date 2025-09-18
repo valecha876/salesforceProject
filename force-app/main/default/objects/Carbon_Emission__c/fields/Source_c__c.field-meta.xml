@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_c__c</fullName>
+    <label>Source</label>
+    <referenceTo>Emission_Source__c</referenceTo>
+    <relationshipLabel>Carbon Emissions (Source)</relationshipLabel>
+    <relationshipName>Carbon_Emissions1</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
