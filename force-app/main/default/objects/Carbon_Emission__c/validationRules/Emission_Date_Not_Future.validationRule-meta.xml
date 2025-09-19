@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emission_Date_Not_Future</fullName>
+    <active>true</active>
+    <description>Ensure emission date is today or earlier, not a future date.</description>
+    <errorConditionFormula>Date__c &gt; TODAY()</errorConditionFormula>
+    <errorMessage>Emission date cannot be in the future.</errorMessage>
+</ValidationRule>

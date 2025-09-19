@@ -4,4 +4,19 @@
     <active>true</active>
     <description>Record type for carbon emissions</description>
     <label>Carbon_Emission_RT</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
