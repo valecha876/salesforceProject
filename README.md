@@ -74,4 +74,18 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Tasks
 ---
 
-## ⚙️ Phase 5: Apex Programming (Developer) 🚧 *In Progress*  
+## 🎯 Phase 5: Apex Programming (Developer)
+- ✅ Classes &amp; Objects
+- ✅ Apex Triggers (before/after insert/update/delete)
+- ✅ Trigger Design Pattern
+- ✅ SOQL &amp; SOSL
+- ✅ Collections: List, Set, Map
+- ✅ Control Statements
+- ✅ Batch Apex
+- ✅ Future Methods
+- ✅ Exception Handling
+- ✅ Test Classes
+- ✅ Asynchronous Processing
+---
+
+## ⚙️ Phase 6: User Interface Development 🚧 *In Progress*  
