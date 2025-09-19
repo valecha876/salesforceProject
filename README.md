@@ -63,5 +63,15 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
+## 🤖 Phase 4: Process Automation (Admin)
+- ✅ Validation Rules
+- ✅ Workflow Rules
+- ✅ Process Builder
+- ✅ Approval Process
+- ✅ Flow Builder (Screen, Record-Triggered, Scheduled, Auto-launched)
+- ✅ Email Alerts
+- ✅ Field Updates
+- ✅ Tasks
+---
 
-## ⚙️ Phase 4: Process Automation (Admin) 🚧 *In Progress*  
+## ⚙️ Phase 4: Apex Programming (Developer) 🚧 *In Progress*  
