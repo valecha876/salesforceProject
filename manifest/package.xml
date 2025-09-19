@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Phase: Company Profile & Org Setup -->
+    <types>
+        <members>Organization</members> <!-- Company Information -->
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>Carbon Tracker User</members> <!-- Profile -->
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Carbon_Tracker_Access</members> <!-- Permission Set -->
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Carbon Tracker User1</members> <!-- Specific Roles -->
+        <members>Sustainability Manager</members>
+        <name>Role</name>
+    </types>
+    
+    <!-- Phase 3: Data Model Components -->
+    <types>
+        <members>Carbon_Emission__c</members>
+        <members>Emission_Source__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Carbon_Emission__c-Carbon_Emission_RT</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Carbon_Emission__c-Carbon Emission Layout</members>
+        <members>Emission_Source__c-Emission Source Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Carbon_Emission__c</members>
+        <members>Emission_Source__c</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Carbon_Emission__c.Carbon_Emission__c</members>
+        <name>SharingRules</name>
+    </types>
+    
+    <!-- Phase 4: Process Automation Components -->
+    <types>
+        <members>Carbon_Emission__c.Amount_Must_Be_Positive</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>High_Value_Vendor_Request_Approval</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Set_Status_to_Approved</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Onboard_Approved_Vendor</members>
+        <name>WorkflowTask</name>
+    </types>
+    <types>
+        <members>High_Emission_Alert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    
+    <!-- Phase 5: Apex Components -->
     <types>
         <members>*</members>
         <name>ApexClass</name>
@@ -8,30 +75,6 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>High_Value_Vendor_Request_Approval</members>
-        <name>ApprovalProcess</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>RecordType</name>
-    </types>
-    <!-- Add other types as needed -->
+    
     <version>64.0</version>
 </Package>
