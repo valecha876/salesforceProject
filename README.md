@@ -3,7 +3,7 @@
 ## 📌 Project Overview  
 **Industry:** Sustainability / Environmental Management  
 **Project Type:** Salesforce Sustainability CRM Implementation  
-**Target Users:** Sustainability Officers, Compliance Teams, Business Leaders  
+**Target Users:** Sustainability Officers, Compliance Teams, Business Leaders 
 
 ---
 
