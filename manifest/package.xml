@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <!-- Phase: Company Profile & Org Setup -->
+    <!-- Phase 2: Org Setup & Configuration -->
     <types>
-        <members>Organization</members> <!-- Company Information -->
+        <members>Organization</members>
         <name>Settings</name>
     </types>
     <types>
-        <members>Carbon Tracker User</members> <!-- Profile -->
+        <members>Carbon Tracker User</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>Carbon_Tracker_Access</members> <!-- Permission Set -->
+        <members>Carbon_Tracker_Access</members>
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>Carbon Tracker User1</members> <!-- Specific Roles -->
+        <members>Carbon Tracker User1</members>
         <members>Sustainability Manager</members>
         <name>Role</name>
     </types>
     
-    <!-- Phase 3: Data Model Components -->
+    <!-- Phase 3: Data Modeling -->
     <types>
         <members>Carbon_Emission__c</members>
         <members>Emission_Source__c</members>
@@ -34,39 +34,18 @@
         <members>Emission_Source__c-Emission Source Layout</members>
         <name>Layout</name>
     </types>
-    <types>
-        <members>Carbon_Emission__c</members>
-        <members>Emission_Source__c</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>Carbon_Emission__c.Carbon_Emission__c</members>
-        <name>SharingRules</name>
-    </types>
     
-    <!-- Phase 4: Process Automation Components -->
+    <!-- Phase 4: Process Automation -->
     <types>
         <members>Carbon_Emission__c.Amount_Must_Be_Positive</members>
         <name>ValidationRule</name>
     </types>
     <types>
-        <members>High_Value_Vendor_Request_Approval</members>
-        <name>ApprovalProcess</name>
-    </types>
-    <types>
-        <members>Set_Status_to_Approved</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Onboard_Approved_Vendor</members>
-        <name>WorkflowTask</name>
-    </types>
-    <types>
-        <members>High_Emission_Alert</members>
-        <name>WorkflowAlert</name>
+        <members>High_Emission_Alert_Flow</members>
+        <name>Flow</name>
     </types>
     
-    <!-- Phase 5: Apex Components -->
+    <!-- Phase 5: Apex Programming -->
     <types>
         <members>*</members>
         <name>ApexClass</name>
@@ -76,5 +55,12 @@
         <name>ApexTrigger</name>
     </types>
     
-    <version>64.0</version>
+    <!-- Phase 6: Lightning Web Components -->
+    <types>
+        <members>carbonFootprintTracker</members>
+        <members>createEmissionForm</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    
+    <version>59.0</version>
 </Package>

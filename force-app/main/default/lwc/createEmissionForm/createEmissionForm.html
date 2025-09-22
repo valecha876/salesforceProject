@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Carbon Footprint Tracker" icon-name="utility:leaf">
+        
+        <!-- Button to open modal -->
+        <lightning-button 
+            label="Report New Emission" 
+            onclick={openModal}
+            class="slds-m-bottom_medium">
+        </lightning-button>
+
+        <!-- List existing emissions -->
+        <template if:true={emissions.data}>
+            <lightning-datatable
+                key-field="id"
+                data={emissions.data}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+
+        <!-- Show loading or error states -->
+        <template if:true={emissions.error}>
+            <div class="slds-text-color_error">
+                Error loading emissions: {emissions.error}
+            </div>
+        </template>
+    </lightning-card>
+</template>

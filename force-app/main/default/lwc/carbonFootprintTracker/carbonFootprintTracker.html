@@ -1,0 +1,120 @@
+<template>
+    <lightning-card title="Carbon Footprint Tracker" icon-name="utility:leaf">
+        <div class="slds-p-around_medium">
+            <!-- Action Button -->
+            <lightning-button 
+                label="Report New Emission" 
+                onclick={openModal}
+                variant="brand"
+                class="slds-m-bottom_medium">
+            </lightning-button>
+
+            <!-- Loading -->
+            <template if:true={isLoading}>
+                <div class="slds-align_absolute-center">
+                    <lightning-spinner alternative-text="Loading emissions"></lightning-spinner>
+                </div>
+            </template>
+
+            <!-- Error -->
+            <template if:true={hasError}>
+                <div class="slds-notify slds-notify_alert slds-theme_error" role="alert">
+                    Error loading emissions: {errorMessage}
+                </div>
+            </template>
+
+            <!-- Data Table -->
+            <template if:true={hasData}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={emissions.data}
+                    columns={columns}
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </template>
+
+            <!-- Empty State -->
+            <template if:true={hasNoEmissions}>
+                <div class="slds-align_absolute-center slds-var-p-vertical_xx-large">
+                    <div class="slds-box slds-align_absolute-center">
+                        <lightning-icon icon-name="utility:add" size="large"></lightning-icon>
+                        <p class="slds-text-heading_small slds-m-top_small">
+                            No emissions found. Click above to add your first emission!
+                        </p>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+        <!-- MODAL -->
+        <template if:true={isModalOpen}>
+            <section role="dialog" tabindex="-1" aria-modal="true" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <!-- Modal Header -->
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium">Report New Carbon Emission</h2>
+                        <button class="slds-button slds-button_icon slds-modal__close" title="Close" onclick={closeModal}>
+                            <lightning-icon icon-name="utility:close" size="small"></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                    </header>
+
+                    <!-- Modal Body -->
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <lightning-record-edit-form object-api-name="Carbon_Emission__c" onsuccess={handleSuccess}>
+                            
+                            <!-- Emission Type -->
+                            <lightning-combobox
+                                name="type"
+                                label="Emission Type"
+                                value={emissionType}
+                                options={typeOptions}
+                                required
+                                onchange={handleTypeChange}>
+                            </lightning-combobox>
+
+                            <!-- Amount -->
+                            <lightning-input
+                                type="number"
+                                name="amount"
+                                label="Amount (kg CO₂e)"
+                                value={amount}
+                                required
+                                min="0"
+                                step="0.1"
+                                onchange={handleAmountChange}>
+                            </lightning-input>
+
+                            <!-- Date -->
+                            <lightning-input
+                                type="date"
+                                name="emissionDate"
+                                label="Emission Date"
+                                value={currentDate}
+                                required
+                                onchange={handleDateChange}>
+                            </lightning-input>
+
+                            <!-- Description -->
+                            <lightning-textarea
+                                name="description"
+                                label="Description"
+                                value={description}
+                                placeholder="Describe the emission source (e.g., 'Car commute to work', 'Electricity usage')"
+                                onchange={handleDescriptionChange}>
+                            </lightning-textarea>
+
+                        </lightning-record-edit-form>
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <footer class="slds-modal__footer">
+                        <lightning-button label="Cancel" variant="neutral" onclick={closeModal}></lightning-button>
+                        <lightning-button label="Save Emission" variant="brand" onclick={handleSave}></lightning-button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+    </lightning-card>
+</template>
