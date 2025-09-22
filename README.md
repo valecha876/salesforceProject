@@ -27,7 +27,7 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
-## 📦 Phase 1 Deliverables – *Problem Understanding & Industry Analysis*  
+## 📦 Phase 1: Deliverables – *Problem Understanding & Industry Analysis*  
 - ✅ Requirement Gathering  
 - ✅ Stakeholder Analysis  
 - ✅ Business Process Mapping  
