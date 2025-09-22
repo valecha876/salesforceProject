@@ -88,4 +88,17 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Asynchronous Processing
 ---
 
-## ⚙️ Phase 6: User Interface Development 🚧 *In Progress*  
+## 🎞️ Phase 6: User Interface Development
+- ✅ Lightning App Builder
+- ✅ Record Pages
+- ✅ Tabs
+- ✅ Home Page Layouts
+- ✅ Utility Bar
+- ✅ Lightning Web Components (LWC)
+- ✅ Apex with LWC
+- ✅ Events in LWC
+- ✅ Wire Adapters
+- ✅ Imperative Apex Calls
+- ✅ Navigation Service
+
+## ⚙️ Phase 7: Integration &amp; External Access 🚧 *In Progress*  
