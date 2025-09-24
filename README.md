@@ -101,4 +101,16 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Imperative Apex Calls
 - ✅ Navigation Service
 
-## ⚙️ Phase 7: Integration &amp; External Access 🚧 *In Progress*  
+## 🔄 Phase 7: Integration &amp; External Access
+- ✅ Named Credentials
+- ✅ External Services
+- ✅ Web Services (REST/SOAP)
+- ✅ Callouts
+- ✅ Platform Events
+- ✅ Change Data Capture
+- ✅ Salesforce Connect
+- ✅ API Limits
+- ✅ OAuth &amp; Authentication
+- ✅ Remote Site Settings
+
+## ⚙️ Phase 8: Data Management &amp; Deployment 🚧 *In Progress*  
