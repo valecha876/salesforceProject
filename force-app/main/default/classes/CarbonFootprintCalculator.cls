@@ -40,4 +40,19 @@ public class CarbonFootprintCalculator {
         
         return distanceKm * factor;  // FIXED: Use * not x
     }
+     // ✅ ADD THIS MISSING METHOD
+    public static Decimal calculateTotalFootprint(Decimal electricityKwh, Decimal transportKm, Decimal heatingTherms, String countryCode) {
+        Decimal electricityEmissions = calculateElectricityEmissions(electricityKwh, countryCode);
+        Decimal transportEmissions = calculateTransportEmissions(transportKm, 'car-petrol'); // Default vehicle
+        Decimal heatingEmissions = calculateHeatingEmissions(heatingTherms);
+        
+        return electricityEmissions + transportEmissions + heatingEmissions;
+    }
+    
+    // ✅ ADD THIS SUPPORTING METHOD
+    public static Decimal calculateHeatingEmissions(Decimal therms) {
+        // Heating emission factor (kg CO2 per therm)
+        Decimal factor = 5.3;
+        return therms * factor;
+    }
 }

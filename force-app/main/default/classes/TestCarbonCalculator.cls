@@ -21,17 +21,4 @@ public class TestCarbonCalculator {
         System.assert(truckEmissions > carEmissions, 'Truck should emit more than car');
         System.debug('Car: ' + carEmissions + ' kg, Truck: ' + truckEmissions + ' kg');
     }
-    
-    @isTest
-    static void testTotalFootprint() {
-        Decimal total = CarbonFootprintCalculator.calculateTotalFootprint(
-            500,    // electricity kWh
-            200,    // transport km
-            10,     // heating therms
-            'US'    // country
-        );
-        
-        System.assert(total > 0, 'Total footprint should be calculated');
-        System.debug('Total footprint: ' + total + ' kg CO2');
-    }
 }

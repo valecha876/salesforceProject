@@ -23,6 +23,7 @@
     <types>
         <members>Carbon_Emission__c</members>
         <members>Emission_Source__c</members>
+        <members>CarbonEmissionChangeEvent</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -61,18 +62,15 @@
         <members>createEmissionForm</members>
         <name>LightningComponentBundle</name>
     </types>
-     <!-- ========== PHASE 7: INTEGRATION & EXTERNAL ACCESS ========== -->
-     <types>
+    
+    <!-- Phase 7: Integration & External Access -->
+    <types>
         <members>CarbonCalculationAPI</members>
         <name>NamedCredential</name>
     </types>
     <types>
         <members>CarbonEmissionEvent</members>
         <name>PlatformEventChannel</name>
-    </types>
-    <types>
-        <members>Carbon_Emission__c</members>
-        <name>CustomObject</name>
     </types>
     <types>
         <members>SendEmailAPI</members>
@@ -86,9 +84,17 @@
         <members>Carbon_Tracker_App</members>
         <name>ConnectedApp</name>
     </types>
+    
+    <!-- Phase 8: Data Management & Deployment -->
     <types>
-        <members>CarbonEmissionChangeEvent</members>
+        <members>Emission_Source__c.Prevent_Duplicate_Emission_Source_Names</members>
+        <name>DuplicateRule</name>
+    </types>
+   
+    <types>
+        <members>Carbon_Data_Export_Schedule</members>
         <name>CustomObject</name>
     </types>
+    
     <version>59.0</version>
 </Package>

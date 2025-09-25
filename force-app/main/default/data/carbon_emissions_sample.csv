@@ -1,0 +1,21 @@
+Name,Amount__c,Date__c,Source_c__c
+Jan2024_Electricity_MainOffice,12500,2024-01-15,Main Office Electricity
+Feb2024_Electricity_MainOffice,11800,2024-02-15,Main Office Electricity
+Q1_NaturalGas_Warehouse,850,2024-03-20,Warehouse Natural Gas
+Jan_CompanyVehicles_Gasoline,1200,2024-01-31,Company Vehicles
+Feb_CompanyVehicles_Gasoline,1350,2024-02-28,Company Vehicles
+Q1_BusinessTravel_Flights,15000,2024-03-30,Business Travel
+Jan_Employee_Commuting,5000,2024-01-25,Employee Commuting
+Water_Consumption_Q1,25000,2024-03-31,Water Consumption
+Waste_Generation_Q1,3200,2024-03-30,Waste Management
+Server_Electricity_Jan,5800,2024-01-20,Data Center
+Shipping_Logistics_Q1,4500,2024-03-25,Shipping & Logistics
+Refrigerants_AC_System,15,2024-02-10,Refrigerants
+Paper_Consumption_Q1,280,2024-03-28,Office Supplies
+Employee_Business_Trains,3200,2024-02-15,Business Travel
+Hotel_Stays_Q1,45,2024-03-30,Business Travel
+Manufacturing_Energy,8900,2024-01-30,Manufacturing
+Delivery_Vehicles_Feb,800,2024-02-28,Delivery Fleet
+IT_Equipment_Energy,1200,2024-03-15,Office Equipment
+Heating_Oil_Warehouse,600,2024-02-20,Warehouse Heating
+Cooling_Systems_Summer,3200,2024-03-25,Office Cooling
