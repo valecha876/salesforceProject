@@ -86,6 +86,7 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Exception Handling
 - ✅ Test Classes
 - ✅ Asynchronous Processing
+
 ---
 
 ## 🎞️ Phase 6: User Interface Development
@@ -101,6 +102,8 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ Imperative Apex Calls
 - ✅ Navigation Service
 
+---
+
 ## 🔄 Phase 7: Integration &amp; External Access
 - ✅ Named Credentials
 - ✅ External Services
@@ -113,4 +116,17 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 - ✅ OAuth &amp; Authentication
 - ✅ Remote Site Settings
 
-## ⚙️ Phase 8: Data Management &amp; Deployment 🚧 *In Progress*  
+---
+
+## 📊 Phase 8: Data Management & Deployment
+- ✅ Data Import Wizard
+- ✅ Data Loader  
+- ✅ Duplicate Rules
+- ✅ Data Export & Backup
+- ✅ Unmanaged vs Managed Packages
+- ✅ ANT Migration Tool
+- ✅ VS Code & SFDX
+
+---
+
+## ⚙️ Phase 9: Reporting, Dashboards &amp; Security Review 🚧 *In Progress*  
