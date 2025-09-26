@@ -118,7 +118,7 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
-## 📊 Phase 8: Data Management & Deployment
+## 🚦 Phase 8: Data Management & Deployment
 - ✅ Data Import Wizard
 - ✅ Data Loader  
 - ✅ Duplicate Rules
