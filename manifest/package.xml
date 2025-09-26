@@ -95,6 +95,69 @@
         <members>Carbon_Data_Export_Schedule</members>
         <name>CustomObject</name>
     </types>
+        <!-- ===== PHASE 9: REPORTING, DASHBOARDS & SECURITY ===== -->
     
+    <!-- Reports -->
+    <types>
+        <members>Carbon_Emissions_Summary</members>
+        <members>Monthly_Emissions_By_Scope</members>
+        <members>Emission_Source_Analysis</members>
+        <members>Carbon_Footprint_Matrix</members>
+        <name>Report</name>
+    </types>
+    
+    <!-- Report Types -->
+    <types>
+        <members>Carbon_Emission__c.Carbon_Emission_With_Source</members>
+        <name>ReportType</name>
+    </types>
+    
+    <!-- Dashboards -->
+    <types>
+        <members>Carbon_Tracker_Executive_Dashboard</members>
+        <members>Sustainability_Manager_View</members>
+        <name>Dashboard</name>
+    </types>
+    
+    <!-- Dynamic Dashboards -->
+    <types>
+        <members>Carbon_Footprint_Real_Time</members>
+        <name>Dashboard</name>
+    </types>
+    
+    <!-- Sharing Settings (Org-Wide Defaults) -->
+    <types>
+        <members>Carbon_Emission__c</members>
+        <members>Emission_Source__c</members>
+        <name>Settings</name>
+    </types>
+    
+    <!-- Field Level Security (via Profile) -->
+    <!-- Already included in your Profile section -->
+    
+    <!-- Session Settings -->
+    <types>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    
+    <!-- Login IP Ranges -->
+    <types>
+        <members>Network</members>
+        <name>Network</name>
+    </types>
+    
+    <!-- Audit Trail Settings -->
+    <types>
+        <members>AuditTrail</members>
+        <name>Settings</name>
+    </types>
+    
+    <!-- Field History Tracking -->
+    <types>
+        <members>Carbon_Emission__c.Amount_CO2e__c</members>
+        <members>Carbon_Emission__c.Scope__c</members>
+        <name>CustomField</name>
+    </types>
     <version>59.0</version>
 </Package>

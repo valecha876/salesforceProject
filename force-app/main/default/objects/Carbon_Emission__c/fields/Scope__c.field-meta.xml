@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <description>Classification of emissions by Scope 1 (direct), Scope 2 (indirect energy), Scope 3 (other indirect)</description>
+    <externalId>false</externalId>
+    <label>Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scope 1 (Direct)</fullName>
+                <default>false</default>
+                <label>Scope 1 (Direct)</label>
+            </value>
+            <value>
+                <fullName>Scope 2 (Indirect Energy)</fullName>
+                <default>false</default>
+                <label>Scope 2 (Indirect Energy)</label>
+            </value>
+            <value>
+                <fullName>Scope 3 (Other Indirect)</fullName>
+                <default>false</default>
+                <label>Scope 3 (Other Indirect)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

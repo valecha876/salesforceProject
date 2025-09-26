@@ -5,6 +5,21 @@
     <description>Record type for carbon emissions</description>
     <label>Carbon_Emission_RT</label>
     <picklistValues>
+        <picklist>Scope__c</picklist>
+        <values>
+            <fullName>Scope 1 %28Direct%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope 2 %28Indirect Energy%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope 3 %28Other Indirect%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Status__c</picklist>
         <values>
             <fullName>Approved</fullName>
