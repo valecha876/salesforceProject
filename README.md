@@ -129,4 +129,14 @@ The **Carbon Footprint Tracker** solves these challenges by leveraging Salesforc
 
 ---
 
-## ⚙️ Phase 9: Reporting, Dashboards &amp; Security Review 🚧 *In Progress*  
+## 📊 Phase 9:Reporting, Dashboards &amp; Security Review
+- ✅ Report Types
+- ✅ Dashboards
+- ✅ Dynamic Dashboards
+- ✅ Sharing Settings
+- ✅ Field Level Security
+- ✅ Session Settings
+- ✅ Login IP Ranges
+- ✅ Audit Trail
+
+## ⚙️ Phase 10: Final Presentation &amp; Demo Day 🚧 *In Progress*  
